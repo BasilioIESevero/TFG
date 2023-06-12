@@ -176,7 +176,7 @@ span.MsoHyperlinkFollowed {
                         
                          <tr>
                           <td style="padding:5px 10px 5px 0;Margin:0" width="80%" align="left"><p style="Margin:0;mso-line-height-rule:exactly;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;line-height:24px;letter-spacing:0;color:#333333;font-size:16px">Envío</p></td>
-                          <td style="padding:5px 0;Margin:0" width="20%" align="left"><p style="Margin:0;mso-line-height-rule:exactly;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;line-height:24px;letter-spacing:0;color:#333333;font-size:16px">Gratis</p></td>
+                          <td style="padding:5px 0;Margin:0" width="20%" align="left"><p style="Margin:0;mso-line-height-rule:exactly;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;line-height:24px;letter-spacing:0;color:#333333;font-size:16px">{{ $order->shipping_cost}} €</p></td>
                          </tr>
                          @endif
                        </table></td>
@@ -196,7 +196,7 @@ span.MsoHyperlinkFollowed {
                        <table style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;width:500px" class="cke_show_border" cellspacing="1" cellpadding="1" border="0" align="left" role="presentation">
                          <tr>
                           <td width="80%" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:16px;font-style:normal;font-weight:normal;line-height:19px;color:#333333">TOTAL</h4></td>
-                          <td width="20%" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:16px;font-style:normal;font-weight:normal;line-height:19px;color:#333333">{{$order->total}}</h4></td>
+                          <td width="20%" style="padding:0;Margin:0"><h4 style="Margin:0;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:16px;font-style:normal;font-weight:normal;line-height:19px;color:#333333">{{$order->total}} €</h4></td>
                          </tr>
                        </table></td>
                      </tr>

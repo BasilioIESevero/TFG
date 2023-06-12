@@ -39,11 +39,6 @@ class CategorySeeder extends Seeder
                 'slug' => Str::slug('Alimentación'),
                 'icon' => '<i class="fas fa-carrot"></i>'
             ],
-            [
-                'name' => 'Limpieza e higiene',
-                'slug' => Str::slug('Limpieza e higiene'),
-                'icon' => '<i class="fas fa-spray-can-sparkles"></i>'
-            ],
         ];
 
         foreach ($categories as $category) {

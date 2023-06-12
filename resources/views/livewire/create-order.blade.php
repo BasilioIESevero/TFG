@@ -33,9 +33,9 @@
 
             <div class="px-6 pb-6 grid grid-cols-2 gap-6" :class="{ 'hidden': envio_type != 2 }">
                 <div>
-                    <x-jet-label value="Departamento" />
+                    <x-jet-label value="Distribuidor" />
                     <select class="form-control w-full" wire:model="department_id">
-                        <option value="" disabled selected>Seleccione un departamento</option>
+                        <option value="" disabled selected>Seleccione un Distribuidor</option>
                         @foreach($departments as $department)
                             <option value="{{ $department->id }}">{{ $department->name }}</option>
                         @endforeach

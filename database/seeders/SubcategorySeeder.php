@@ -21,7 +21,6 @@ class SubcategorySeeder extends Seeder
                 'category_id' => 1,
                 'name' => 'Camisas',
                 'slug' => Str::slug('Camisas'),
-                'color' => true
             ],
             [
                 'category_id' => 1,
@@ -65,11 +64,6 @@ class SubcategorySeeder extends Seeder
                 'name' => 'Gres',
                 'slug' => Str::slug('Gres'),
             ],
-            [
-                'category_id' => 3,
-                'name' => 'Cerámica',
-                'slug' => Str::slug('Cerámica'),
-            ],
             /* Alimentación */
             [
                 'category_id' => 4,
@@ -85,31 +79,6 @@ class SubcategorySeeder extends Seeder
                 'category_id' => 4,
                 'name' => 'Lácteos y derivados',
                 'slug' => Str::slug('Lácteos y derivados'),
-            ],
-            /* Limpieza e higiene */
-            [
-                'category_id' => 5,
-                'name' => 'Mujeres',
-                'slug' => Str::slug('Mujeres'),
-                'color' => true,
-                'size' => true
-            ],
-            [
-                'category_id' => 5,
-                'name' => 'Hombres',
-                'slug' => Str::slug('Hombres'),
-                'color' => true,
-                'size' => true
-            ],
-            [
-                'category_id' => 5,
-                'name' => 'Lentes',
-                'slug' => Str::slug('Lentes'),
-            ],
-            [
-                'category_id' => 5,
-                'name' => 'Relojes',
-                'slug' => Str::slug('Relojes'),
             ],
         ];
         foreach ($subcategories as $subcategory) {
